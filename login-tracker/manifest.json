@@ -1,0 +1,28 @@
+{
+	"name": "Login Tracker",
+	"version": "1.0.0",
+	"description": "This extension will count your login time. github.com/mustafabaypara",
+	"manifest_version": 3,
+	"author": "Akdeniz - mbaypara",
+	"permissions": ["activeTab", "scripting"],
+	"icons": {
+		"128": "L.png"
+	  },
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"action": {
+	  "default_popup": "index.html",
+	  "default_title": "Login Time",
+	  "default_icon": {
+		"128": "L.png"
+	  }
+	},
+	"content_scripts": [
+	  {
+		"matches": ["<all_urls>"],
+		"js": ["content.js"]
+	  }
+	]
+  }
+  

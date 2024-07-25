@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Tracker</title>
+  <meta charset="utf-8">
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 20px;
+    }
+    .table thead th {
+      background-color: #00babc;
+      color: white;
+      font-weight: bold;
+    }
+    .table tfoot th {
+      background-color: #00babc;
+      color: white;
+      font-weight: bold;
+    }
+    .table td, .table th {
+      vertical-align: middle;
+    }
+    .text-center {
+      text-align: center;
+      font-weight: bold;
+    }
+    h1 {
+      color: #00babc;
+      font-size: large;
+    }
+    #user {
+	color: white;
+	background-color: #00babc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center">Login Tracker</h2>
+    <div id="user" class="text-center"></div>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Hour</th>
+          <th>Minute</th>
+          <th>Active Days</th>
+        </tr>
+      </thead>
+      <tbody id="data-body">
+        <!-- Data rows will be inserted here -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th id="total-hours">Maybe</th>
+          <th id="total-minutes">Refresh</th>
+          <th id="total-active-days">It</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <script src="script.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
