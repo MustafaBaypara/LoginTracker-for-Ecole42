@@ -18,6 +18,8 @@ On other people's profile, if you click on the extansion it will calculate their
 # To install the extension.  
 
 Open the extansions menu, click the right button of the developer mode.  
-Click "load unpackaged"
+Click "load unpackaged" and select the folder from the project.  
+<img width="1508" alt="Ekran Resmi 2024-07-25 ÖS 3 56 46" src="https://github.com/user-attachments/assets/deaf01e4-1692-4230-b177-f0b4acde6bc8">  
 
-  
+Or drop the folder to the extansion menu.  
+<img width="1299" alt="Ekran Resmi 2024-07-25 ÖS 4 02 59" src="https://github.com/user-attachments/assets/219ac725-927a-4a42-a6b6-3dfe414a5b61">  
